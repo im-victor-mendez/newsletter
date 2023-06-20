@@ -1,14 +1,26 @@
 @import './sass/sizes';
 
 #root {
+	$height: 100vh;
+
 	font-family: 'Roboto', sans-serif;
+	height: $height;
 }
 
-.image {
-	$height: 284px;
+.card {
+	height: $fill;
 
-	background-image: url(./assets/images/illustration-sign-up-mobile.svg);
-	background-repeat: no-repeat;
-	width: $fill;
-	height: $height;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+
+	.image {
+		$height: 284px;
+
+		background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+		background-repeat: no-repeat;
+		width: $fill;
+		height: $height;
+	}
 }
