@@ -1,0 +1,41 @@
+@import './mixins';
+@import './colors';
+
+@include desktop() {
+	#root {
+		background-color: $charcoal-grey;
+		display: grid;
+		place-items: center;
+	}
+
+	.card {
+		flex-direction: row-reverse;
+		gap: 2rem;
+		padding: 2rem 3rem;
+		width: 50%;
+		height: fit-content;
+		border-radius: 1rem;
+		margin: 0;
+
+		.image {
+			background-position: center;
+			background-size: cover;
+			width: 50%;
+		}
+
+		.form {
+			width: 50%;
+			margin: 0;
+		}
+	}
+
+	#root {
+		.thanks {
+			width: 300px;
+			height: fit-content;
+			margin: 0;
+			padding: 2rem;
+			border-radius: 2rem;
+		}
+	}
+}
