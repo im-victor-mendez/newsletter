@@ -1,0 +1,31 @@
+@import '@/sass/sizes';
+@import '@/sass/colors';
+
+.thanks {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 3rem 2rem;
+	height: $fill;
+
+	.top {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+
+		.title {
+			font-size: xx-large;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+	}
+
+	.button {
+		background-color: $dark-slate-grey;
+		color: $white;
+		padding: 1rem;
+		border-radius: 0.5rem;
+	}
+}

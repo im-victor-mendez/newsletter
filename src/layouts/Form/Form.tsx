@@ -26,7 +26,7 @@ function Form() {
 
 	function onSubmit(event: { preventDefault: () => void }) {
 		event.preventDefault()
-		handleSuccess(true)
+		if (email) handleSuccess(true)
 	}
 
 	return (
