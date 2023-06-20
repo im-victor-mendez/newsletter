@@ -1,0 +1,13 @@
+.bullet {
+	display: flex;
+	gap: 1rem;
+
+	.icon {
+		width: 1.5rem;
+		height: auto;
+	}
+
+	.text {
+		margin: 0;
+	}
+}

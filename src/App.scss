@@ -1,0 +1,14 @@
+@import './sass/sizes';
+
+#root {
+	font-family: 'Roboto', sans-serif;
+}
+
+.image {
+	$height: 284px;
+
+	background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+	background-repeat: no-repeat;
+	width: $fill;
+	height: $height;
+}
